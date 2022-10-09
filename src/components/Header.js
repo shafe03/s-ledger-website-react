@@ -1,5 +1,5 @@
-import "../../style/main.scss";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import "../style/main.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,38 +7,38 @@ const Header = () => {
       <nav className="navbar">
         <div className="nav-logo">
           <img src="../Assets/adove-Indesign-png.png" alt="logo"></img>
-          <a href="index.html"> S-LEDGER </a>
+          <Link to="/"> S-LEDGER </Link>
         </div>
         <div className="nav-list">
-          <a href="features.html" className="nav-link">
+          <Link to="/" className="nav-link">
             Features
-          </a>
-          <a href="pricing.html" className="nav-link">
+          </Link>
+          <Link to="pricing" className="nav-link">
             Pricing
-          </a>
-          <a href="learn-and-support.html" className="nav-link">
+          </Link>
+          <Link to="learn-support" className="nav-link">
             Learn & support
-          </a>
-          <a href="./docs.html" className="nav-link">
+          </Link>
+          <Link to="tutorials" className="nav-link">
             Tutorial
-          </a>
-          <a href="./docs.html" className="nav-link">
+          </Link>
+          <Link to="docs" className="nav-link">
             Docs
-          </a>
-          <a href="./about-us.html" className="nav-link">
+          </Link>
+          <Link to="about_us" className="nav-link">
             About Us
-          </a>
+          </Link>
         </div>
         <div className="signup-login">
-          <a href="#" className="login">
+          <Link to="app_test" className="app">
             Free Trial
-          </a>
-          <a href="./login.html" className="login">
+          </Link>
+          <Link to="login" className="login">
             Log in
-          </a>
-          <a href="./signup.html" className="signup">
+          </Link>
+          <Link to="signup" className="signup">
             Sign up
-          </a>
+          </Link>
         </div>
       </nav>
       {/* <!--End of navbar --> */}

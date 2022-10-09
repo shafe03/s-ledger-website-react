@@ -1,53 +1,6 @@
-const Pricing_Page = () => {
+const PricingPage = () => {
   return (
     <body id="price-page">
-      {/* <!-- navbar --> */}
-      <nav class="navbar">
-        <div class="nav-logo">
-          <a href="index.html"> S-LEDGER </a>
-        </div>
-        <div class="nav-list">
-          <a href="./features.html" class="nav-link">
-            Features
-          </a>
-          <a href="./pricing.html" class="nav-link">
-            Pricing
-          </a>
-          <a href="./learn-and-support.html" class="nav-link">
-            Learn & support
-          </a>
-          <a href="./docs.html" class="nav-link">
-            Tutorial
-          </a>
-          <a href="./docs.html" class="nav-link">
-            Docs
-          </a>
-          <a href="./about-us.html" class="nav-link">
-            About Us
-          </a>
-        </div>
-        <div class="signup-login">
-          <a href="#" class="login">
-            Free Trial
-          </a>
-          <a href="./login.html" class="login">
-            Log in
-          </a>
-          <a href="./signup.html" class="signup">
-            Sign up
-          </a>
-        </div>
-      </nav>
-      {/* <!--End of navbar --> */}
-
-      {/* <!-- menu --> */}
-      <div class="menu">
-        <div class="line line-1"></div>
-        <div class="line line-2"></div>
-        <div class="line line-3"></div>
-      </div>
-      {/* <!--End of menu  --> */}
-
       {/* <!--container  --> */}
       <div class="container">
         {/* <!-- Landing page --> */}
@@ -431,24 +384,10 @@ const Pricing_Page = () => {
           </div>
         </section>
         {/* <!--End of Frequently ask question --> */}
-
-        <footer class="footer">
-          <h1 class="footer-heading">S-LEDGER</h1>
-          <nav class="footer-nav">
-            <a href="">Legal</a>|<a href="">Privacy</a>|<a href="">Security</a>
-          </nav>
-
-          <h4>&copy; Md. Shafe Alam</h4>
-
-          <p>
-            All rights reserved. Terms and conditions, features, support,
-            pricing, and service options subject to change without notice.
-          </p>
-        </footer>
       </div>
       {/* <!--End of container  --> */}
     </body>
   );
 };
 
-export default Pricing_Page;
+export default PricingPage;

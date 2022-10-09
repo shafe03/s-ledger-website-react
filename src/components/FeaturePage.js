@@ -1,13 +1,8 @@
-const Feature = () => {
-  return (
-    <body id="features-html">
-      {/* <!-- menu --> */}
-      <div class="menu">
-        <div class="line line-1"></div>
-        <div class="line line-2"></div>
-        <div class="line line-3"></div>
-      </div>
+import { Link } from "react-router-dom";
 
+const FeaturePage = () => {
+  return (
+    <body id="featurePage">
       {/* <!-- contaner --> */}
       <div class="container">
         {/* <!-- Landing page --> */}
@@ -20,14 +15,14 @@ const Feature = () => {
               </p>
               <ul class="hero-content-btns">
                 <li>
-                  <a href="pricing.html" class="buy-now">
+                  <Link to="/pricing" class="buy-now">
                     Buy Now
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="pricing.html" class="buy-now">
+                  <Link to="/pricing" class="buy-now">
                     Free 30-Day Trial
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -40,7 +35,7 @@ const Feature = () => {
                 <span>50%</span>off
               </p>
               <h3 class="offer-logo">S-LEDGER</h3>
-              <a href="pricing.html">Buy Now</a>
+              <Link to="/pricing">Buy Now</Link>
               <h4 class="offer-footer">
                 Or, Sign up for a Free 30-day trial without credit card
               </h4>
@@ -89,9 +84,9 @@ const Feature = () => {
                 Create custom, professional invoices, sales receipts and
                 estimates that you can send in minutes.
               </p>
-              <a class="btn-learn-more" href="#">
+              <Link tos="btn-learn-more" href="#">
                 Learn more
-              </a>
+              </Link>
               <div class="operations__icon operations__icon--1">
                 <img src="../img/features/undraw_Receipt_re_fre3.svg" alt="" />
               </div>
@@ -120,10 +115,10 @@ const Feature = () => {
               <div class="operations__icon operations__icon--3">
                 <img src="../img/features/undraw_Report_re_kp7y.svg" alt="" />
               </div>
-              <a class="learn-more" href="docs.html">
+              <Link tos="learn-more" href="docs.html">
                 {" "}
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -147,7 +142,7 @@ const Feature = () => {
               </p>
             </div>
           </div>
-          <a href="pricing.html">Try it free</a>
+          <Link to="/pricing">Try it free</Link>
         </section>
 
         <section class="section-4">
@@ -197,8 +192,8 @@ const Feature = () => {
               <h2 class="amount">
                 &#2547;2000/ <span>month</span>
               </h2>
-              <a href="pricing.html">Buy now</a>
-              <a href="pricing.html">Free 30-Day Trial</a>
+              <Link to="/pricing">Buy now</Link>
+              <Link to="/pricing">Free 30-Day Trial</Link>
               <ul class="pricing__plan">
                 <li>
                   <i class="fas fa-check"></i>
@@ -229,8 +224,8 @@ const Feature = () => {
               <h2 class="amount">
                 &#2547;2500/ <span>month</span>
               </h2>
-              <a href="pricing.html">Buy now</a>
-              <a href="pricing.html">Free 30-Day Trial</a>
+              <Link to="/pricing">Buy now</Link>
+              <Link to="/pricing">Free 30-Day Trial</Link>
               <ul class="pricing__plan">
                 <li>
                   <i class="fas fa-check"></i>
@@ -257,8 +252,8 @@ const Feature = () => {
               <h2 class="amount">
                 &#2547;3000/ <span>month</span>
               </h2>
-              <a href="pricing.html">Buy now</a>
-              <a href="pricing.html">Free 30-Day Trial</a>
+              <Link to="/pricing">Buy now</Link>
+              <Link to="/pricing">Free 30-Day Trial</Link>
               <ul class="pricing__plan">
                 <li>
                   <i class="fas fa-check"></i>
@@ -279,7 +274,7 @@ const Feature = () => {
               </ul>
             </div>
           </div>
-          <a href="pricing.html">See all features</a>
+          <Link to="/pricing">See all features</Link>
         </section>
         {/* <!--END OF PRICING --> */}
 
@@ -287,7 +282,7 @@ const Feature = () => {
           <h1 class="section-heading">
             See how S-ledger Online can work for your business
           </h1>
-          <a href="pricing.html">Buy now and save</a>
+          <Link to="/pricing">Buy now and save</Link>
         </section>
 
         <section class="section-7">
@@ -348,23 +343,10 @@ const Feature = () => {
             </div>
           </div>
         </section>
-
-        <footer class="footer">
-          <h1 class="footer-heading">S-LEDGER</h1>
-          <nav class="footer-nav">
-            <a href="">Legal</a>|<a href="">Privacy</a>|<a href="">Security</a>
-          </nav>
-          <h4>&copy; Md. Shafe Alam</h4>
-
-          <p>
-            All rights reserved. Terms and conditions, features, support,
-            pricing, and service options subject to change without notice.
-          </p>
-        </footer>
       </div>
       {/* <!--End of container --> */}
     </body>
   );
 };
 
-export default Feature;
+export default FeaturePage;
