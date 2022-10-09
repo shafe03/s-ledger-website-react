@@ -1,9 +1,9 @@
-import Header from "./components/Header/Header";
+import Display_Content from "./components/Display";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Display_Content />
     </div>
   );
 }
