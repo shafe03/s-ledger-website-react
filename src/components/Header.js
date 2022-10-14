@@ -6,7 +6,6 @@ const Header = () => {
     <div className="flex">
       <nav className="navbar">
         <div className="nav-logo">
-          <img src="../Assets/adove-Indesign-png.png" alt="logo"></img>
           <Link to="/"> S-LEDGER </Link>
         </div>
         <div className="nav-list">
@@ -25,7 +24,7 @@ const Header = () => {
           <Link to="docs" className="nav-link">
             Docs
           </Link>
-          <Link to="about_us" className="nav-link">
+          <Link to="aboutus" className="nav-link">
             About Us
           </Link>
         </div>

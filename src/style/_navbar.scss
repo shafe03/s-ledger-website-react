@@ -21,7 +21,6 @@
       }
 
       &:hover {
-        zoom: 1.05;
         @include hoverAnimation;
       }
     }

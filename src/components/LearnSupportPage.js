@@ -1,33 +1,36 @@
 const LearnSupportPage = () => {
   return (
-    <body>
+    <div id="learnSupport">
       {/* <!-- contaner --> */}
-      <div class="container">
+      <div className="container">
         {/* <!-- Landing page --> */}
-        <section class="section-1">
-          <div class="hero">
-            <div class="hero-content">
-              <h1 class="hero-content-heading">
+        <section className="section-1">
+          <div className="hero">
+            <div className="hero-content">
+              <h1 className="hero-content-heading">
                 Hello! Welcome to <br />
                 S-Ledger Support.
               </h1>
-              <p class="hero-content-paragraph">
+              <p className="hero-content-paragraph">
                 Find S-Ledger help articles, Community discussions with other
                 S-Ledger users, video tutorials and more.
               </p>
               <label for="search"></label>
               <input
-                class="section-1_search"
+                className="section-1_search"
                 type="search"
                 id="search"
                 name="search"
                 placeholder="Post Question"
               />
-              <button className="btn btn-all-features">Post</button>
+              <button classNameName="btn btn-all-features">Post</button>
             </div>
-            <div class="hero-img-wrapper">
+            <div className="hero-img-wrapper">
               <img
-                src="../img/support/undraw_instant_support_re_s7un.svg"
+                src={
+                  require("../img/support/undraw_instant_support_re_s7un.svg")
+                    .default
+                }
                 alt="support-img"
               />
             </div>
@@ -36,7 +39,7 @@ const LearnSupportPage = () => {
         {/* <!--End of landing page --> */}
       </div>
       {/* <!--End of container --> */}
-    </body>
+    </div>
   );
 };
 

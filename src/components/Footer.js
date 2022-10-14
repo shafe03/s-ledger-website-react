@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer class="footer">
-      <h1 class="footer-heading">S-LEDGER</h1>
-      <nav class="footer-nav">
+    <footer className="footer">
+      <h1 className="footer-heading">S-LEDGER</h1>
+      <nav className="footer-nav">
         <a href="">Legal</a>|<a href="">Privacy</a>|<a href="">Security</a>
       </nav>
 
